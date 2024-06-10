@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "ehrs02"
+  annotations:
+    github.com/project-slug: hirveakshata/azure-functionapp-workflow # Change the value to your github repo which contains terraform code.
+    backstage.io/techdocs-ref: dir:.
+    azure.com/microsoft-web-sites: "ehrs02"
+  title: "ehrs02" # you can give any title
+  description: "Testing" # Change Description accordingly
+  tags: ["azure-functionapp"]
+spec:
+  type: Infrastructure service
+  owner: user:guest
+  lifecycle: "Experimental"
+
